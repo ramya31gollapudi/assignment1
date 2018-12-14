@@ -28,7 +28,7 @@ this.subj=new Array(Math.floor(Math.random() *100),Math.floor(Math.random() *100
  }
   document.writeln("SORT BY NAME"+"<br>");
  stu.sort(function(a,b){if(a.name<b.name) return -1;
- else return 1;});
+ elseif(a.name>b.name) return 1;else return 0;});
 function Total(){
  for(var i=0;i<5;i++)
  {
